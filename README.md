@@ -11,6 +11,28 @@ The architecture of the CNN consists of several layers:
 - **Pooling Layers**: Max pooling layers that reduce the spatial dimensions of the feature maps to retain essential information while reducing complexity.
 - **Fully Connected Layers**: Layers that make the final prediction based on the features extracted by the convolutional layers.
 
+## Dependencies
+To run this project, ensure you have the following dependencies installed:
+- Python 3.x
+- TensorFlow (or any other deep learning framework)
+- NumPy
+- Matplotlib
+- RISC-V simulator if testing on hardware.
+
+## Dataset
+The MNIST database consists of 70,000 grayscale images of handwritten digits (0-9), where:
+- 60,000 images are used for training.
+- 10,000 images are used for testing.
+
+## Model Architecture
+The CNN architecture implemented consists of:
+1. **Input Layer**: Takes the 28x28 grayscale images.
+2. **Convolutional Layer**: Applies filters to extract features.
+3. **Activation Layer**: Uses ReLU activation function.
+4. **Pooling Layer**: Reduces dimensionality, retaining important features.
+5. **Fully Connected Layer**: Outputs the class probabilities.
+6. **Softmax Layer**: Converts the output to probabilities for each class.
+
 ## Methodology
 1. **Data Preparation**: Load and preprocess the MNIST dataset, normalizing the pixel values.
 2. **Model Construction**: Build the CNN architecture with appropriate layers for feature extraction and classification.
