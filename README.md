@@ -50,9 +50,17 @@ The implementation is optimized for RISC-V Vector ISA, allowing parallel process
 The model demonstrated an accuracy of over 98% on the MNIST test dataset. The efficiency of the algorithm on RISC-V architecture showcases the capability of handling deep learning tasks with minimal hardware resources.
 
 ## Setup Instructions
-1. **Clone the Repository**: `git clone https://github.com/Alizawwaris974/CNN-for-Digit-Recognition.git`
-2. **Navigate to Directory**: `cd CNN-for-Digit-Recognition`
+1. **Clone the Repository**:
+    ```bash
+    git clone https://github.com/Alizawwaris974/CNN-for-Digit-Recognition.git`
+3. **Navigate to Directory**:
+    ```bash
+    cd CNN-for-Digit-Recognition`
 3. **Install Dependencies**: Use the provided `requirements.txt` file to install necessary Python packages.
-4. **Run the Model**: Execute the main script to start training and testing the model.
+6. **Run the Model**: Execute the main script to start training and testing the model.
 
-For any additional issues, please refer to the `docs` directory or reach out via the repository's Issues section.
+## Contributions
+Contributions to improve this project are welcome! Please fork the repository and submit a pull request with your enhancements.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
